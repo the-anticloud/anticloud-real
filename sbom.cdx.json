@@ -1,0 +1,138 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:53b7f53e-aa2b-5c9f-a170-24a428dc3606",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T06:02:19Z",
+  "component": {
+   "type": "application",
+   "name": "REAL",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/REAL@83b357604d34",
+   "purl": "pkg:generic/anticloud/REAL@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "transcribe-cpp",
+   "version": "==0.2.1",
+   "purl": "pkg:pypi/transcribe-cpp@0.2.1",
+   "bom-ref": "pypi/transcribe-cpp@==0.2.1"
+  },
+  {
+   "type": "library",
+   "name": "sherpa-onnx",
+   "version": "==1.13.4",
+   "purl": "pkg:pypi/sherpa-onnx@1.13.4",
+   "bom-ref": "pypi/sherpa-onnx@==1.13.4"
+  },
+  {
+   "type": "library",
+   "name": "silero-vad",
+   "version": ">=6.2.1; python_version >= ",
+   "purl": "pkg:pypi/silero-vad@6.2.1; python_version >= ",
+   "bom-ref": "pypi/silero-vad@>=6.2.1; python_version >= "
+  },
+  {
+   "type": "library",
+   "name": "fastapi",
+   "version": ">=0.115,<1",
+   "purl": "pkg:pypi/fastapi@0.115,<1",
+   "bom-ref": "pypi/fastapi@>=0.115,<1"
+  },
+  {
+   "type": "library",
+   "name": "python_version",
+   "version": ">= ",
+   "purl": "pkg:pypi/python-version@",
+   "bom-ref": "pypi/python_version@>= "
+  },
+  {
+   "type": "library",
+   "name": "torch",
+   "version": "==2.8.0; %s",
+   "purl": "pkg:pypi/torch@2.8.0; %s",
+   "bom-ref": "pypi/torch@==2.8.0; %s"
+  },
+  {
+   "type": "library",
+   "name": "torchaudio",
+   "version": "==2.8.0; %s",
+   "purl": "pkg:pypi/torchaudio@2.8.0; %s",
+   "bom-ref": "pypi/torchaudio@==2.8.0; %s"
+  },
+  {
+   "type": "library",
+   "name": "omnilingual-asr",
+   "version": ">=0.2.0; %s",
+   "purl": "pkg:pypi/omnilingual-asr@0.2.0; %s",
+   "bom-ref": "pypi/omnilingual-asr@>=0.2.0; %s"
+  },
+  {
+   "type": "library",
+   "name": "stt-server",
+   "version": "=RealtimeSTT_server.stt_server:main",
+   "purl": "pkg:pypi/stt-server@RealtimeSTT_server.stt_server:main",
+   "bom-ref": "pypi/stt-server@=RealtimeSTT_server.stt_server:main"
+  },
+  {
+   "type": "library",
+   "name": "stt-server-production",
+   "version": "=RealtimeSTT_server.production_server:main",
+   "purl": "pkg:pypi/stt-server-production@RealtimeSTT_server.production_server:main",
+   "bom-ref": "pypi/stt-server-production@=RealtimeSTT_server.production_server:main"
+  },
+  {
+   "type": "library",
+   "name": "stt",
+   "version": "=RealtimeSTT_server.stt_cli_client:main",
+   "purl": "pkg:pypi/stt@RealtimeSTT_server.stt_cli_client:main",
+   "bom-ref": "pypi/stt@=RealtimeSTT_server.stt_cli_client:main"
+  },
+  {
+   "type": "library",
+   "name": "stt-install-kroko",
+   "version": "=RealtimeSTT.install_kroko:main",
+   "purl": "pkg:pypi/stt-install-kroko@RealtimeSTT.install_kroko:main",
+   "bom-ref": "pypi/stt-install-kroko@=RealtimeSTT.install_kroko:main"
+  },
+  {
+   "type": "library",
+   "name": "stt-install-sherpa-models",
+   "version": "=RealtimeSTT.install_sherpa_models:main",
+   "purl": "pkg:pypi/stt-install-sherpa-models@RealtimeSTT.install_sherpa_models:main",
+   "bom-ref": "pypi/stt-install-sherpa-models@=RealtimeSTT.install_sherpa_models:main"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
